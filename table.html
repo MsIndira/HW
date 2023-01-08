@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="table" />
+    <title>Table</title>
+    <style>
+      table,
+      tr,
+      th {
+        border: 1px solid grey;
+        width: 400px;
+      }
+      #row3cell1 {
+        padding-right: 270px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tbody>
+        <tr>
+          <th>Columu 1</th>
+          <th>Columu 2</th>
+          <th>Columu 3</th>
+        </tr>
+        <tr>
+          <th rowspan="2">Row 1 Cell 1</th>
+          <th>Row 1 Cell 2</th>
+          <th>Row 1 Cell 3</th>
+        </tr>
+        <tr>
+          <th>Row 2 Cell 2</th>
+          <th>Row 2 Cell 3</th>
+        </tr>
+        <tr>
+          <th colspan="3" id="row3cell1">Row 3 Cell 1</th>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
