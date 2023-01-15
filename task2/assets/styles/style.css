@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@300;400&family=Inter:wght@300&display=swap");
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 0.25fr 1fr 1fr;
+}
+nav {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.menu {
+  height: 15vh;
+  margin: auto;
+}
+.nav {
+  height: 75vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  justify-content: start;
+  align-items: center;
+}
+.nav a {
+  margin-top: 20px;
+}
+nav img {
+  margin-top: 10px;
+}
+
+header {
+  font-family: "Blinker";
+  font-weight: 400;
+  font-size: 25px;
+  color: #ffffff;
+  border-bottom: 1px solid white;
+  text-align: center;
+  padding: 10px 0px;
+}
+h2 {
+  font-family: "Blinker";
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  padding: 7px 0px;
+}
+.about img {
+  display: block;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about p,
+.about a {
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 16px;
+  color: #a3a3a3;
+  padding: 10px 0px;
+}
+.about a {
+  text-decoration: none;
+}
+.about,
+.section2 {
+  margin-top: 25px;
+}
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.gallery button {
+  background-color: rgba(28, 28, 28, 0);
+  background: none;
+  border-style: none;
+  cursor: pointer;
+}
+aside {
+  background-image: url(./deer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  justify-content: end;
+}
+.footer {
+  display: flex;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.name {
+  font-family: "Blinker";
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 12px;
+  letter-spacing: 2px;
+
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.maintext {
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  color: #a3a3a3;
+}

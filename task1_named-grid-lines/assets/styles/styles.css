@@ -1,0 +1,83 @@
+body {
+  display: grid;
+  grid-template-columns: [main-start] 2fr [main-end aside-start] 1fr [aside-end];
+  grid-template-rows: 0.4fr 1fr 0.4fr;
+
+  height: 70vh;
+}
+
+header {
+  background-color: rgb(213, 234, 235);
+  grid-row: 1;
+  grid-column: main-start / aside-end;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.mainpart {
+  grid-row: 2;
+  grid-column: main-start / main-end;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat (4, 1fr);
+
+  grid-template-areas:
+    "hdr hdr"
+    "hdr hdr"
+    "el1 el2"
+    "el3 el3";
+}
+.element1,
+.element2,
+.element3 {
+  background-color: rgb(240, 181, 126);
+  margin: 10px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+#header {
+  grid-area: hdr;
+  margin: auto;
+}
+
+.element1 {
+  grid-area: el1;
+}
+.element2 {
+  grid-area: el2;
+}
+.element3 {
+  grid-area: el3;
+}
+
+aside {
+  background-color: rgb(166, 238, 200);
+
+  grid-row: 2;
+  grid-column: aside-start / aside-end;
+
+  display: grid;
+  justify-items: center;
+  padding-top: 10px;
+}
+
+footer {
+  background-color: rgb(213, 234, 235);
+
+  grid-row: 3;
+  grid-column: main-start / aside-end;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.footersection {
+  background-color: white;
+  padding: 10px;
+}
