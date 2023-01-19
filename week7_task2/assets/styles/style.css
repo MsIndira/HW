@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Montserrat:wght@400;500&display=swap");
+
+header {
+  background-color: #edece8;
+}
+.display {
+  height: 78px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Libre Bodoni";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: -0.01em;
+  color: #343433;
+}
+
+.menu-item:hover {
+  text-decoration: underline;
+}
+
+.menu-item {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+
+  text-decoration: none;
+  padding-right: 76px;
+}
+.menu-item:nth-child(n + 2) {
+  font-weight: 400;
+  color: #343433;
+}
+.menu-item:first-child {
+  font-weight: 500;
+  color: #2b2a29;
+}
+.container {
+  background: url(./deer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 968px;
+  width: auto;
+}
+
+.text {
+  padding-top: 400px;
+  text-align: center;
+}
+
+#nicolejane {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #f4f3f1;
+  opacity: 0.85;
+  margin-top: 400px;
+}
+
+#wildlife {
+  font-family: "Libre Bodoni";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 75px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+
+  color: #f4f3f1;
+}
+#since {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+
+  color: #f4f3f1;
+
+  opacity: 0.85;
+}
+
+.circle {
+  padding-top: 324px;
+  text-align: center;
+}
+
+.aboutme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 400px;
+}
+
+.text2 {
+  margin-right: 72px;
+}
+
+.text2 span {
+  width: 100px;
+  height: 23px;
+
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 151%;
+
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+
+  color: #9d9480;
+
+  opacity: 0.85;
+}
+
+.text2 p {
+  font-family: "Libre Bodoni";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 115%;
+
+  text-transform: capitalize;
+
+  color: #343433;
+
+  padding-top: 20px;
+  width: 338px;
+  height: 159px;
+}
+
+.text3 {
+  width: 669px;
+  height: 192px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 31px;
+
+  color: #343433;
+}
+
+.gallery {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+.buffalo {
+  height: 1826px;
+  background-size: cover;
+  background-image: url(./Group1.png);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buffalo-link {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 151%;
+
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  color: #f4f3f1;
+
+  text-decoration: none;
+}
+
+.buffalo-link:hover {
+  text-decoration: underline;
+}
+
+.gallery_link {
+  height: 110px;
+  text-align: center;
+}
+.gallery-link {
+  text-decoration: none;
+
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+
+  color: #343433;
+
+  opacity: 0.85;
+}
+
+.projects {
+  height: 1344px;
+}
+
+.latest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.latest1 {
+  margin-top: 90px;
+}
+
+.latest1 span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 151%;
+
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+
+  color: #9d9480;
+
+  opacity: 0.85;
+}
+
+.latest-link {
+  margin-top: 20px;
+  margin-bottom: 40px;
+
+  text-decoration: none;
+
+  font-family: "Libre Bodoni";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 115%;
+
+  text-transform: capitalize;
+
+  color: #343433;
+}
+
+.latest-link:hover {
+  text-decoration: underline;
+}
+
+.tiger {
+  height: 899px;
+
+  background-image: url(./tiger.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.left {
+  background-image: url(./Rectangle22.png);
+  background-repeat: no-repeat;
+  width: 44px;
+  height: 126px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left button,
+.right button {
+  background: none;
+  border-style: none;
+  cursor: pointer;
+}
+
+.right {
+  background-image: url(./Rectangle21.png);
+  background-repeat: no-repeat;
+  width: 44px;
+  height: 126px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tiger-link {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 151%;
+
+  text-align: center;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+
+  color: #f4f3f1;
+  padding: 0px 360px;
+  text-decoration: none;
+}
+
+.view-projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  margin-bottom: 100px;
+}
+
+.view-projects-link {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+
+  color: #343433;
+
+  opacity: 0.85;
+
+  text-decoration: none;
+}
+
+.listedin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 115px;
+  margin-bottom: 100px;
+}
+
+.listedin button {
+  border-style: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #343433;
+  height: 211px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 958px;
+}
+
+.footer div p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+
+  color: #f4f3f1;
+}
+.footer1 {
+  margin-right: 130px;
+}
+
+.footer2 {
+  text-align: right;
+  min-width: 238px;
+}
