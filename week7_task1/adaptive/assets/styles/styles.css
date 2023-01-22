@@ -1,0 +1,140 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(213, 234, 235);
+  width: 100vw;
+  height: 10vh;
+}
+
+@media screen and (min-width: 1024px) {
+  .main {
+    display: flex;
+  }
+
+  .mainpart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    height: 60vh;
+    flex-direction: column;
+  }
+  #header {
+    display: flex;
+    padding-top: 20px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "element1 element2"
+      "element3 element3";
+    gap: 10px;
+    width: 69vw;
+    height: 45%;
+    margin-bottom: 10px;
+  }
+
+  .element1,
+  .element2,
+  .element3 {
+    background-color: rgb(240, 181, 126);
+  }
+
+  .element1 {
+    grid-area: element1;
+  }
+  .element2 {
+    grid-area: element2;
+  }
+  .element3 {
+    grid-area: element3;
+  }
+
+  aside {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(166, 238, 200);
+    width: 30vw;
+    padding-top: 20px;
+  }
+
+  footer {
+    background-color: rgb(213, 234, 235);
+    display: flex;
+    justify-content: space-around;
+    height: 12vh;
+  }
+  .footersection {
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    padding-top: 10px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mainpart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 60vh;
+    flex-direction: column;
+  }
+  #header {
+    display: flex;
+    padding-top: 20px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "element1 element2"
+      "element3 element3";
+    gap: 10px;
+    width: 99vw;
+    height: 45%;
+    margin-bottom: 10px;
+  }
+
+  .element1,
+  .element2,
+  .element3 {
+    background-color: rgb(240, 181, 126);
+  }
+
+  .element1 {
+    grid-area: element1;
+  }
+  .element2 {
+    grid-area: element2;
+  }
+  .element3 {
+    grid-area: element3;
+  }
+
+  aside {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(166, 238, 200);
+    width: 100vw;
+    padding-top: 20px;
+  }
+
+  footer {
+    display: none;
+  }
+}

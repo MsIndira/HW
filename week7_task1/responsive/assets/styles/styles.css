@@ -1,0 +1,80 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(213, 234, 235);
+  width: 100vw;
+  height: 10vh;
+}
+
+.main {
+  display: flex;
+  height: 60vh;
+}
+
+.mainpart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70vw;
+  flex-direction: column;
+}
+#header {
+  display: flex;
+  padding-top: 20px;
+}
+
+.container {
+  height: 40%;
+  width: 98%;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "element1 element2"
+    "element3 element3";
+  gap: 10px;
+}
+
+.element1,
+.element2,
+.element3 {
+  background-color: rgb(240, 181, 126);
+}
+
+.element1 {
+  grid-area: element1;
+}
+.element2 {
+  grid-area: element2;
+}
+.element3 {
+  grid-area: element3;
+}
+
+h3 {
+  text-align: center;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(166, 238, 200);
+  width: 30vw;
+  padding-top: 20px;
+}
+
+footer {
+  background-color: rgb(213, 234, 235);
+  display: flex;
+  justify-content: space-around;
+  height: 12vh;
+}
+.footersection {
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+  background-color: white;
+  padding: 10px;
+}

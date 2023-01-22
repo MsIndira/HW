@@ -4,7 +4,7 @@ header {
   background-color: #edece8;
 }
 .display {
-  height: 78px;
+  padding: 1% 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,8 +14,8 @@ h1 {
   font-family: "Libre Bodoni";
   font-style: normal;
   font-weight: 400;
-  font-size: 36px;
-  line-height: 45px;
+  font-size: 2.25em;
+  line-height: 1.25;
   letter-spacing: -0.01em;
   color: #343433;
 }
@@ -27,8 +27,8 @@ h1 {
 .menu-item {
   font-family: "Montserrat";
   font-style: normal;
-  font-size: 15px;
-  line-height: 18px;
+  font-size: 0.9em;
+  line-height: 1.2;
   letter-spacing: 0.12em;
   text-transform: uppercase;
 
@@ -47,12 +47,12 @@ h1 {
   background: url(./deer.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 968px;
+
   width: auto;
 }
 
 .text {
-  padding-top: 400px;
+  padding-top: 20%;
   text-align: center;
 }
 
@@ -60,45 +60,41 @@ h1 {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.12em;
   text-align: center;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #f4f3f1;
   opacity: 0.85;
-  margin-top: 400px;
 }
 
 #wildlife {
   font-family: "Libre Bodoni";
   font-style: normal;
   font-weight: 400;
-  font-size: 60px;
-  line-height: 75px;
+  font-size: 3.75em;
+  line-height: 1.25;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-
   color: #f4f3f1;
 }
 #since {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 1.12em;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-
   color: #f4f3f1;
-
   opacity: 0.85;
 }
 
 .circle {
-  padding-top: 324px;
   text-align: center;
+  padding: 15% 0 5%;
 }
 
 .aboutme {
@@ -106,27 +102,21 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  height: 400px;
+  margin: 5% 20%;
 }
 
 .text2 {
-  margin-right: 72px;
+  margin-right: 5%;
 }
 
 .text2 span {
-  width: 100px;
-  height: 23px;
-
   font-family: "Montserrat";
   font-weight: 500;
-  font-size: 15px;
+  font-size: 0.9em;
   line-height: 151%;
-
   letter-spacing: 0.12em;
   text-transform: uppercase;
-
   color: #9d9480;
-
   opacity: 0.85;
 }
 
@@ -134,58 +124,44 @@ h1 {
   font-family: "Libre Bodoni";
   font-style: normal;
   font-weight: 400;
-  font-size: 46px;
+  font-size: 2.8em;
   line-height: 115%;
-
   text-transform: capitalize;
-
   color: #343433;
-
   padding-top: 20px;
-  width: 338px;
-  height: 159px;
 }
 
 .text3 {
-  width: 669px;
-  height: 192px;
-
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 31px;
-
+  font-size: 0.9em;
+  line-height: 2;
   color: #343433;
 }
 
 .gallery {
-  width: auto;
   display: flex;
   flex-direction: column;
 }
 .buffalo {
-  height: 1826px;
   background-size: cover;
   background-image: url(./Group1.png);
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 .buffalo-link {
   font-family: "Montserrat";
   font-weight: 600;
-  font-size: 22px;
+  font-size: 1.3em;
   line-height: 151%;
-
   text-align: center;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-
   color: #f4f3f1;
-
   text-decoration: none;
+  padding: 35% 0 50%;
 }
 
 .buffalo-link:hover {
@@ -193,27 +169,20 @@ h1 {
 }
 
 .gallery_link {
-  height: 110px;
   text-align: center;
+  margin: 5% 0 15%;
 }
 .gallery-link {
   text-decoration: none;
-
   font-family: "Montserrat";
   font-weight: 500;
-  font-size: 15px;
-  line-height: 18px;
+  font-size: 0.9em;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-
   color: #343433;
-
   opacity: 0.85;
-}
-
-.projects {
-  height: 1344px;
 }
 
 .latest {
@@ -221,41 +190,29 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-.latest1 {
-  margin-top: 90px;
+  margin: 0 0 3%;
 }
 
 .latest1 span {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 0.9em;
   line-height: 151%;
-
   letter-spacing: 0.12em;
   text-transform: uppercase;
-
   color: #9d9480;
-
   opacity: 0.85;
 }
 
 .latest-link {
-  margin-top: 20px;
-  margin-bottom: 40px;
-
   text-decoration: none;
-
   font-family: "Libre Bodoni";
   font-style: normal;
   font-weight: 400;
-  font-size: 46px;
+  font-size: 2.8em;
   line-height: 115%;
-
   text-transform: capitalize;
-
   color: #343433;
 }
 
@@ -264,16 +221,13 @@ h1 {
 }
 
 .tiger {
-  height: 899px;
-
   background-image: url(./tiger.png);
   background-repeat: no-repeat;
   background-size: cover;
 
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .left {
@@ -308,18 +262,19 @@ h1 {
 .tiger-link {
   font-family: "Montserrat";
   font-weight: 700;
-  font-size: 52px;
+  font-size: 3.25em;
   line-height: 151%;
-
   text-align: center;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-
   color: #f4f3f1;
-  padding: 0px 360px;
   text-decoration: none;
 }
-
+.left,
+.right,
+.tiger-container {
+  margin: 20% 0;
+}
 .view-projects {
   display: flex;
   flex-direction: column;
