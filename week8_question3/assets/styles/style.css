@@ -1,0 +1,17 @@
+.mainbox {
+  height: 500px;
+}
+.gallery,
+.box {
+  height: 300px;
+}
+.description,
+.related {
+  height: 95px;
+}
+.blue {
+  background-color: rgb(95, 95, 216);
+}
+.box {
+  padding-right: 0;
+}

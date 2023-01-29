@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.header {
+  margin: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__btn_basket {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+  color: #ffffff;
+}
+.possibilities {
+  margin: 30px 50px;
+}
+.posibilities__title {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 120%;
+  margin: 30px 50px;
+}
+.possibilities__column {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+}
+
+.possibilities__column_title {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+}
+.possibilities__column_ftitle {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+  color: #ffffff;
+}
+
+.possibilities__column_text {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 160%;
+}
+.possibilities__column_form {
+  background-color: pink;
+  padding: 10px;
+}
+.footer__navigation_text {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 160%;
+}
