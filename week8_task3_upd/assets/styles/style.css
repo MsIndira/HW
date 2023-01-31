@@ -1,0 +1,95 @@
+@font-face {
+  font-family: Intro;
+  src: url();
+  src: url(./font/Intro-Trial-Bd.ttf) format(ttf);
+  src: url(./font/Intro-Trial-Bd.woff) format(woff);
+}
+
+.header {
+  margin: 90px 75px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__btn {
+  background-color: #5222d0;
+  border-color: #5222d0;
+  border-radius: 100px;
+  width: 115px;
+  height: 38px;
+}
+
+.header__btn_basket {
+  font-family: Intro;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.possibilities {
+  margin: 100px 90px 86px;
+  display: flex;
+  flex-direction: column;
+}
+.posibilities__title {
+  font-family: Intro;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 120%;
+  margin: 30px 50px;
+}
+.possibilities__column {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+}
+
+.possibilities__column_title {
+  font-family: Intro;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+}
+.possibilities__column_ftitle {
+  font-family: Intro;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+  color: #ffffff;
+}
+
+.possibilities__column_text {
+  font-family: Intro;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 160%;
+}
+.possibilities__column_form {
+  background-color: #ec615b;
+  padding: 10px;
+}
+
+.possibilities__btn {
+  background-color: #5222d0;
+  border-color: #5222d0;
+  border-radius: 100px;
+  width: 135px;
+  height: 38px;
+  font-family: Intro;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+  color: #ffffff;
+}
+.footer__navigation {
+  margin-bottom: 80px;
+  margin-left: 126px;
+}
+.footer__navigation_text {
+  font-family: Intro;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 160%;
+}
