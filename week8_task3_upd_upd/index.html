@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <img src="./assets/images/logo.svg" alt="logo" />
+        <button type="button" class="header__btn">
+          <span class="header__btn_basket">Корзина</span
+          >&nbsp<img src="./assets/images/ico.svg" alt="" />
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="possibilities">
+        <h1 class="posibilities__title">Возможности</h1>
+        <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-1 possibilities__main">
+          <div class="col">
+            <div class="card possibilities__column" style="width: 25vw">
+              <img
+                src="./assets/images/nowires.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title possibilities__column_title">Без проводов</h5>
+                <p class="card-text possibilities__column_text">
+                  Шлем работает без проводов. Не нужен ни компьютер, ни внешнее
+                  питание, ни большое помещение, чтобы расставить трекеры.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card possibilities__column" style="width: 25vw">
+              <img
+                src="./assets/images/nocomputers.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title possibilities__column_title">Без компьютера</h5>
+                <p class="card-text possibilities__column_text">
+                  Современным VR-шлемам нужен мощный компьютер, чтобы запускать
+                  игры. Наш шлем запускает игры из облака, поэтому просто
+                  наслаждайтесь.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card possibilities__column" style="width: 25vw">
+              <img
+                src="./assets/images/tenhourswork.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title possibilities__column_title">До 10 часов работы</h5>
+                <p class="card-text possibilities__column_text">
+                  Несмотря на компактность и производительность, шлем может
+                  работать до 10 часов — даже, если вы играете в самые
+                  ресурсоемкие игры.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card possibilities__column" style="width: 25vw">
+              <div class="card-body">
+                <h5 class="card-title possibilities__column_title">Сотни игр</h5>
+                <p class="card-text possibilities__column_text">
+                  Уже сейчас вам доступно более сотни игр: от высокобюджетных
+                  ААА-тайтлов до маленьких независимых проектов. Скоро их станет
+                  еще больше.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card possibilities__column" style="width: 25vw">
+              <div class="card-body">
+                <h5 class="card-title possibilities__column_title">Почти даром</h5>
+                <p class="card-text possibilities__column_text">
+                  По сравнению с другими VR-шлемами наш стоит гораздо меньше. И
+                  вы существенно экономите на мощном компьютере.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <form class="possibilities__column" style="width: 25vw">
+              <div class="mb-3 possibilities__column_form">
+                <label for="exampleInputEmail1" class="form-label possibilities__column_ftitle"
+                  >Новости</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Эл.почта"
+                />
+              <button type="submit" class="
+              possibilities__btn m-3">Подписаться</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container footer__navigation">
+                <ul class="navbar-nav mb-2">
+                    <li class="nav-item">
+                      <a class="nav-link active footer__navigation_text" aria-current="page" href="#" t>Возможности</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active footer__navigation_text" aria-current="page" href="#">Где купить</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active footer__navigation_text" aria-current="page" href="#">Доставка</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active footer__navigation_text" aria-current="page" href="#">Помощь</a>
+                      </li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
