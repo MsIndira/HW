@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Basket</title>
+  </head>
+  <body>
+    <section>
+      <h1>Basket</h1>
+      <div class="row">
+        <div class="cell">
+          <div class="cell__img">
+            <img src="./img/notebook.jpg" alt="notebook" />
+          </div>
+          <div class="cell__text">
+            <p>Notebook Beige</p>
+          </div>
+        </div>
+        <div class="price" ><span id="notebookprice">30</span>$</div>
+      </div>
+      <div class="row">
+        <div class="cell">
+            <div class="cell__img">
+          <img src="./img/cattoy.jpeg" alt="plushtoy" />
+        </div>
+          <div class="cell__text"><p>Cat plush toy</p>
+        </div>
+        </div>
+        <div class="price"><span id="plushtoyprice">45</span>$</div>
+      </div>
+    </div>
+      <div class="row">
+        <div class="cell">
+            <div class="cell__img">
+          <img src="./img/vase.png" alt="vase" />
+        </div>
+        <div class="cell__text"><p>Vase</p></div>
+        </div>
+        <div class="price"><span id="vaseprice">15</span>$</div>
+      </div>
+      <div class="row">
+        <div class="cell">
+            <div class="cell__img">
+          <img src="./img/stickers.jpg" alt="stickers" />
+        </div>
+        <div class="cell__text"><p>Stickers</p>
+        </div>
+    </div>
+        <div class="price"><span id="stickersprice">3</span>$</div>
+      </div>
+      <div class="summary">
+        <button id="button" onclick="discount()">Use coupon for 20%</button>
+        <div class="total">Итого: <span id="totalprice"></span> $</div>
+      </div>
+    </section>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

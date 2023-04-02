@@ -1,0 +1,51 @@
+section {
+  padding-left: 50px;
+  width: 50vw;
+  height: 100vh;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 2px solid black;
+}
+
+.cell {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.cell__text {
+  font-size: 20px;
+  margin: auto;
+}
+
+img {
+  width: 200px;
+}
+
+.price {
+  margin: auto;
+  font-size: 20px;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.total {
+  margin: 0 25px 0;
+  font-size: 18px;
+}
+
+#button {
+  cursor: pointer;
+  border-radius: 5px;
+  width: 25%;
+  padding: 15px 5px;
+  text-align: center;
+  font-size: 16px;
+  border: 2px solid rgb(161, 161, 146);
+}

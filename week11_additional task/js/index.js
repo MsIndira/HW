@@ -1,0 +1,8 @@
+let outputWindow = document.getElementById("output");
+outputWindow.setAttribute("readonly", "true");
+
+function count() {
+  let inputEnter = document.getElementById("enter").value;
+  console.log(inputEnter ** 2);
+  outputWindow.value = inputEnter ** 2;
+}
