@@ -1,0 +1,35 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+  width: 80vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+#commentfield {
+  width: 70%;
+  padding: 6px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #555;
+}
+
+#commentfield {
+  resize: vertical;
+}
+
+button {
+  width: 30%;
+  background-color: antiquewhite;
+  color: blue;
+  padding: 10px 25px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: 1px solid blue;
+}

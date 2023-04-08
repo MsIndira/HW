@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>Task 1</title>
+  </head>
+  <body>
+    <section>
+      <h1>Comment service with spam filter</h1>
+      <div class="container">
+        <div>
+          <h2>Leave your comment</h2>
+          <form>
+            <label for="fname">Write your full name</label>
+            <input type="text" id="fname" name="fname" />
+            <label for="avatarlink">Insert a link of your avatar</label>
+            <input type="" id="avatarlink" name="avatarlink" />
+            <label for="commentfield">Leave a comment</label>
+            <textarea
+              name="commentfield"
+              id="commentfield"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <button onclick="press()">Send</button>
+          </form>
+        </div>
+        <div id="outcome">
+          <h2>Chat</h2>
+          <div id="outcome__result"></div>
+        </div>
+      </div>
+    </section>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
