@@ -30,9 +30,3 @@ function press() {
   p2.innerHTML = checkSpam;
   div2.append(p2);
 }
-
-//<div>
-//<img src="" alt="avatar" />
-//<p></p>
-//</div>
-//<p></p>
