@@ -1,5 +1,5 @@
 let outputWindow = document.getElementById("output");
-outputWindow.setAttribute("readonly", "true");
+
 
 function count() {
   let inputEnter = document.getElementById("enter").value;
