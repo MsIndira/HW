@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+section {
+  width: 50vw;
+  background-image: linear-gradient(
+    to right,
+    rgb(132, 126, 126),
+    rgb(233, 201, 201)
+  );
+}
+
+h1,
+h2 {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.fname {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.fcareer {
+  color: aliceblue;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+a {
+  color: black;
+  font-size: 14px;
+  padding-left: 450px;
+}
+
+#topList {
+  font-weight: bold;
+  padding: 0px 20px 20px;
+}
